@@ -1,5 +1,9 @@
+document.getElementById('firstName')
 Cookies.set('firstName', 'Monica');
-Cookies.get('firstName');
- //var Fname = Cookies.get('firstName');
+
+// get to value of a input save it to cookie//
+
+
+var fname = Cookies.get('firstName');
 
 console.log(fname);
